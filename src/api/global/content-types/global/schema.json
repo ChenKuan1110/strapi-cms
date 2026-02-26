@@ -4,7 +4,7 @@
   "info": {
     "singularName": "global",
     "pluralName": "globals",
-    "displayName": "Global",
+    "displayName": "站点信息",
     "description": "Define global settings"
   },
   "options": {
@@ -20,7 +20,11 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": ["images", "files", "videos"]
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
     },
     "siteDescription": {
       "type": "text",
@@ -28,8 +32,8 @@
     },
     "defaultSeo": {
       "type": "component",
-      "repeatable": false,
-      "component": "shared.seo"
+      "component": "shared.seo",
+      "repeatable": false
     }
   }
 }

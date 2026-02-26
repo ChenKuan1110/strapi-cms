@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "联系我们"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "phone": {
+      "type": "string",
+      "default": "028-61668265",
+      "required": true
+    },
+    "location": {
+      "type": "text",
+      "default": "四川省成都市金牛区蜀西路 9 号丰德羊西中心 1907-1908 室",
+      "required": true
+    },
+    "postCode": {
+      "type": "string",
+      "default": "610037",
+      "required": true
+    },
+    "envs": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

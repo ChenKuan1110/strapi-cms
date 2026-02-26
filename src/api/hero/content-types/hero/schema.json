@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "heros",
+  "info": {
+    "singularName": "hero",
+    "pluralName": "heros",
+    "displayName": "第一屏"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "desc": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    }
+  }
+}

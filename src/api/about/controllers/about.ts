@@ -1,5 +1,5 @@
 /**
- *  about controller
+ * about controller
  */
 
 import { factories } from '@strapi/strapi';

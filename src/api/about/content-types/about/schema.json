@@ -4,20 +4,25 @@
   "info": {
     "singularName": "about",
     "pluralName": "abouts",
-    "displayName": "About",
-    "description": "Write about yourself and the content you create"
+    "displayName": "关于我们"
   },
   "options": {
-    "draftAndPublish": false
+    "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "string"
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
     },
-    "blocks": {
-      "type": "dynamiczone",
-      "components": ["shared.media", "shared.quote", "shared.rich-text", "shared.slider"]
+    "desc": {
+      "type": "richtext",
+      "required": true
     }
   }
 }

@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jobs",
+  "info": {
+    "singularName": "job",
+    "pluralName": "jobs",
+    "displayName": "田珏招聘"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "jobName": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "pubTime": {
+      "type": "datetime"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "requirement": {
+      "type": "text"
+    },
+    "location": {
+      "type": "string"
+    },
+    "count": {
+      "type": "integer"
+    }
+  }
+}
